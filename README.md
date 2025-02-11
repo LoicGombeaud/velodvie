@@ -33,3 +33,4 @@ Sur des données factices :
 - visualisation de la répartition des distances (histogrammes ?)
 - affinage des options de la heatmap, potentiellement à faire varier en fonction du nombre d'adresses récupérées et/ou mise en place d'un bouton/slider pour modifier les options en live sur la page HTML
 - mise en place de persistence/cache pour éviter les appels répétés à Google Maps ($0,005 / appel API, mais $200 offerts par mois, à ne pas dépasser)
+- cercles/disques concentriques centrés sur l'employeur avec affichage du nombre d'employés y vivant, pour représenter les distances (lesquelles, direct ou vélo ?)
