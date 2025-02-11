@@ -58,7 +58,6 @@ class Employer:
         return json.dumps(heatmap_points_json_list)
 
     def generate_html(self):
-        #TODO: load template, populate value, return generated string
         env = Environment(loader=PackageLoader('employerdata', 'templates'))
         template = env.get_template('index.html.j2')
         return template.render(employer_name=self.name,
