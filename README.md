@@ -21,6 +21,13 @@ pip install -r requirements.txt
 python3 test_render.py
 ```
 
+## Exemples
+
+Sur des données factices :
+![image](https://github.com/user-attachments/assets/913c2ff8-f860-43e6-aacc-23646874e11c)
+![image](https://github.com/user-attachments/assets/8caf7671-c920-4531-bb52-a04f87b5d4fb)
+
+
 ## TODO
 
 - visualisation de la répartition des distances (histogrammes ?)
