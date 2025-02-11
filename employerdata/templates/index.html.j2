@@ -42,7 +42,7 @@ L.HeatLayer=(L.Layer?L.Layer:L.Class).extend({initialize:function(t,i){this._lat
 
     var addressPoints = {{ heatmap_points }}
 
-    var map = L.map('map').setView([{{ employer_latitude}}, {{employer_longitude}}], 14);
+    var map = L.map('map').setView([{{ employer_latitude }}, {{ employer_longitude }}], 14);
 
     var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
