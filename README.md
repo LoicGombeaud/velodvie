@@ -32,3 +32,4 @@ Sur des données factices :
 
 - visualisation de la répartition des distances (histogrammes ?)
 - affinage des options de la heatmap, potentiellement à faire varier en fonction du nombre d'adresses récupérées
+- mise en place de persistence/cache pour éviter les appels répétés à Google Maps ($0,005 / appel API, mais $200 offerts par mois, à ne pas dépasser)
